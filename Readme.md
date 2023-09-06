@@ -29,7 +29,7 @@ accumulative sum. However, we noticed that the maximal difference between two co
 the maximal value of 30 days, making it irreversible to compute the original timestamps. Hence, we discarded users that did not place any order for more than 30 days.
 2.  Unlike the rest of the datasets, ValuedShopper's dataset does not contain unique product ids. In order to mitigate this, we created unique product ids by hashing the concatenation of the
 product’s brand id, company id, and category id, which are all available in the dataset.
-3.  Users sampling - In order to face the large amounts of transactional data in the ValuedShopper dataset, we followed the same procedure from [22] and randomly sampled 10K users. 
+3.  Users sampling - In order to face the large amounts of transactional data in the ValuedShopper dataset, we followed the same procedure from [here](https://dl.acm.org/doi/10.1145/3397271.3401066) and randomly sampled 10K users. 
 
 ## Partitioning
 We followed the the following convention: the training data for each user consists of all baskets except for the last one. 
