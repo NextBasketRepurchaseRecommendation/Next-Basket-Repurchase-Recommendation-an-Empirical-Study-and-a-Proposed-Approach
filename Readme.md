@@ -40,16 +40,16 @@ To pre-process and partition the datasets, follow these steps:
 1. Clone this repository to your local machine.
 
 
-2. Install the requirements: ```pip install -r requirements.txt```
+2. Install the requirements: ```pip install -r requirements.txt```.
 
 
-3. Download the datasets (the links can be found on the **Datasets** section above) to  ```.\raw_data\ ``` .
+3. Download the datasets (the links can be found on the **Datasets** section above) to  ```.\raw_data\ ```.
 
 
 4. Run ```preprocess_all_datasets.bat``` for Windows OS and ```preprocess_all_datasets.sh``` for Linux OS.
 
 
-5. The pre-processed files will be written to  ```.\preprocessed_data\ ```
+5. The pre-processed files will be written to  ```.\preprocessed_data\ ```.
 
 
 ## License
