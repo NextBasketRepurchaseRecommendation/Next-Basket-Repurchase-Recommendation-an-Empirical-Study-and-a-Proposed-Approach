@@ -8,9 +8,8 @@ in the Paper ''Next Basket Repurchase Recommendation - an Empirical Study and a 
 We consider the following datasets:
 
 1. [Instacart](https://www.kaggle.com/c/instacart-market-basket-analysis/data):  The dataset consists of transactional data and items’ metadata. The items’ metadata was used for the
-analysis in Section 2 but it is not part of our solution which utilizes transactional data only. Transactional data
-in Instacart contains 30M transactions collected over a year from Instacart’s grocery service. These transactions
-are associated with 3M baskets corresponding to 206K usersA dataset containing grocery shopping data, including information about users, products, orders, and more.
+analysis in Section 2, and the transactional data was used for the experimental evaluation in Section 5. The transactional data
+in Instacart contains 30M transactions collected over a year from Instacart’s grocery service. These transactions are associated with 3M baskets corresponding to 206K users.
 
 2. [Dunnhumby](https://www.dunnhumby.com/source-files/): This dataset is based on two years of household transactions associated with 2.5K frequent shoppers. The dataset comprises 2M transactions associated with 270K baskets.
 
@@ -43,8 +42,7 @@ To pre-process and partition the datasets, follow these steps:
 2. Install the requirements: ```pip install -r requirements.txt```.
 
 
-3. Download the datasets (the links can be found on the **Datasets** section above) to  ```.\raw_data\ ```.
-
+3. Download the datasets to  ```.\raw_data\ ``` (the links can be found on the **Datasets** section above).
 
 4. Run ```preprocess_all_datasets.bat``` for Windows OS and ```preprocess_all_datasets.sh``` for Linux OS.
 
