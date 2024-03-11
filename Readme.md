@@ -1,7 +1,7 @@
-# Pre-processing and Partitioning Datasets for ''Next Basket Repurchase Recommendation - an Empirical Study and a Proposed Approach"
+# Pre-processing and Partitioning Datasets for ''Personalized Cadence Awareness for Next Basket Recommendation"
 
 This repository contains code for pre-processing and partitioning the datasets used 
-in the Paper ''Next Basket Repurchase Recommendation - an Empirical Study and a Proposed Approach".
+in the Paper ''Personalized Cadence Awareness for Next Basket Recommendation".
 
 
 ## Datasets
